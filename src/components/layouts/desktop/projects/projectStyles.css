@@ -1,0 +1,9 @@
+removeScroll{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    color: red;
+}
+removeScroll::-webkit-scrollbar{
+    display: none;
+    color: blue
+}
