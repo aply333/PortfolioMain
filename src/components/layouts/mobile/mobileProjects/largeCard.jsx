@@ -54,7 +54,7 @@ function LargeCard({ data, toggler, height }) {
           ))}
         </List>
       <Paragraph>{data.description}</Paragraph>
-      <IconAndLink styles={styles.link} linkText={data.link}/>
+      <IconAndLink styles={styles.link} linkText={data.title} link={data.link}/>
       <TextButton styles={styles.close} text="close" alter action={toggler}/>
       </div>
     </div>

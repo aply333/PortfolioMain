@@ -74,7 +74,7 @@ export const AboutContent = {
     },
     {
       id: 0,
-      title: "Resturaunt Passport",
+      title: "Restaurant Passport",
       stack: ["HTML", "CSS", "LESS"],
       description: "This site/app both markets restaurants in your area, but also allows users to check-in, collecting a stamp from their visit. My role here was to design and build the landing pages for the project. These portions were made using basic HTML, with LESS to compile the CSS.",
       img: resturaunt,
