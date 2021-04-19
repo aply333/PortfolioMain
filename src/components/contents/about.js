@@ -19,7 +19,7 @@ export const AboutContent = {
   },
   myStack: ["Javascript", "Node", "React", "HTML", "CSS", "Python", "SQL", "Redux", "Knex"],
   contact:{
-    email: "andrei@aply.tech",
+    email: "aply.code@gmail.com",
     phone: "(628)777-8068"
   },
   projects:[
@@ -30,7 +30,7 @@ export const AboutContent = {
       description: "I built this, intentionally limiting the use of any premade libraries. All the components were made using basic React and CSS. I chose to use Formspree; my contact form is simple and did not warrant building a backend, Formspree provides a decent level of protection and notifies when submissions are made.",
       img: portfolio,
       alt: "Screenshot of aply.tech.",
-      link:"www.filler.com"
+      link:"https://github.com/aply333/PortfolioMain"
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export const AboutContent = {
       description:"A Calendar tool paired with a to-do list, built for both mobile and desktop layouts. Made to keep it simple. Components are custom made, and the database was assembled with sqlite3 and knex. The server saves and tracks user inputs, while also providing some level of account authorization.",
       img: todo,
       alt: "Screenshot of the calendar app I made.",
-      link: "www.filler.com"
+      link: "https://github.com/aply333/TaskToDate"
     },
     {
       id: 3,
