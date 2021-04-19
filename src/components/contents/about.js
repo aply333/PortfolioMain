@@ -5,8 +5,12 @@ import snippet from "./screenshots/snippet.jpg"
 import todo from "./screenshots/todo.jpg"
 import trello from "./screenshots/trelloClone.jpg"
 import merchant from "./screenshots/merchant.jpg"
+import resume from "./AndreiLysenko.pdf"
 
 export const AboutContent = {
+  gitHub:"https://github.com/aply333",
+  linked:"https://www.linkedin.com/in/aply333/",
+  resume: resume,
   bannerImg: twin,
   bannerAlt: "Photo I took while atop of the twin peaks, in San Francisco.",
   mainHeader: "Hi, I'm Andrei.",

@@ -8,7 +8,7 @@ export function IconAndLink({linkText, styles, link}){
 
     return(
         <div style={styles}>
-            <a href={link} style={linkStyle}>{linkText}</a>
+            <a href={link} target="_blank" style={linkStyle}>{linkText}</a>
         </div>
     )
 }
