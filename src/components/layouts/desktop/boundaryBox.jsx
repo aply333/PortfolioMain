@@ -3,7 +3,7 @@ function BoundaryBox({ viewstate, ...props }) {
     margin:
       viewstate === "mobile" || viewstate === "tablet"
         ? "0"
-        : "10h auto 0 auto",
+        : "10vh auto 0 auto",
     width: viewstate === "mobile" || viewstate === "tablet" ? "100%" : "90%",
     display: "flex",
     flexWrap: viewstate === "mobile" ? "wrap" : "none",
