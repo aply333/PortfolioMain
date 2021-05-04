@@ -6,6 +6,7 @@ import todo from "./screenshots/todo.jpg"
 import trello from "./screenshots/trelloClone.jpg"
 import merchant from "./screenshots/merchant.jpg"
 import resume from "./AndreiLysenko.pdf"
+import game from "./screenshots/gameINC.jpg"
 
 export const AboutContent = {
   gitHub:"https://github.com/aply333",
@@ -23,10 +24,19 @@ export const AboutContent = {
   },
   myStack: ["Javascript", "Node", "React", "HTML", "CSS", "Python", "SQL", "Redux", "Knex"],
   contact:{
-    email: "aply.code@gmail.com",
+    email: "andrei@aply.tech",
     phone: "(628)777-8068"
   },
   projects:[
+    {
+      id:6,
+      title: "Canvas Game",
+      stack: ["JavaScript", "HTML5","Canvas", "CSS"],
+      description: "This project is ongoing; I am building an adventure game using base javascript and html5. The challenge I put for myself, is to complete without any external libraries.",
+      img: game,
+      alt: "Screenshot of code, for my current project.",
+      link: "https://github.com/aply333/CanvasGame1"
+    },
     {
       id: 5,
       title: "My Website",
