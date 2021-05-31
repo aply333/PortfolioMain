@@ -6,7 +6,7 @@ import todo from "./screenshots/todo.jpg"
 import trello from "./screenshots/trelloClone.jpg"
 import merchant from "./screenshots/merchant.jpg"
 import resume from "./AndreiLysenko.pdf"
-import game from "./screenshots/gameINC.jpg"
+import focused from "./screenshots/focusedKanban.jpg"
 
 export const AboutContent = {
   gitHub:"https://github.com/aply333",
@@ -30,12 +30,12 @@ export const AboutContent = {
   projects:[
     {
       id:6,
-      title: "Canvas Game",
-      stack: ["JavaScript", "HTML5","Canvas", "CSS"],
-      description: "This project is ongoing; I am building an adventure game using base javascript and html5. The challenge I put for myself, is to complete without any external libraries.",
-      img: game,
+      title: "FocusedKanban",
+      stack: ["JavaScript", "HTML5","Canvas", "CSS", "React", "ExpressJS", "SQLITE3", "Knex", "Bcrypt"],
+      description: "Continuation of the TrelloClone project, but this time I’ve decided to build out more and incorporate some unique features. On the desktop users can build and manage a kanban board, then select a task, which will display on their mobile device. Separating planning from the task at hand.",
+      img: focused,
       alt: "Screenshot of code, for my current project.",
-      link: "https://github.com/aply333/CanvasGame1"
+      link: "https://github.com/aply333/FocusedKanBan"
     },
     {
       id: 5,
@@ -88,7 +88,7 @@ export const AboutContent = {
       stack: ["HTML", "CSS", "LESS"],
       description: "This site/app both markets restaurants in your area, but also allows users to check-in, collecting a stamp from their visit. My role here was to design and build the landing pages for the project. These portions were made using basic HTML, with LESS to compile the CSS.",
       img: resturaunt,
-      alt: "Screenshot of the landing page of the Resturaunt Passport app.",
+      alt: "Screenshot of the landing page of the Restaurant Passport app.",
       link: "https://github.com/bw-restaurant-passport-1/User-Interface"
     }
   ]
